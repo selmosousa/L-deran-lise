@@ -8,10 +8,11 @@
 
 .principal__titulo {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
     border-top: 1px solid gray;
     padding-top: 0.5rem;
+    padding-botton: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkblue;
 }
