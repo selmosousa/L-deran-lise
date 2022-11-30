@@ -63,13 +63,14 @@
 
 .logos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem 0;
 }
 
 .logo__parceria {
     padding: 1rem;
-    width: 100%;
+    width: 45%;
 }
 
 .rodape {
