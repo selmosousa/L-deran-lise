@@ -20,7 +20,7 @@
     <main class="principal container">
         <h1 class="principal__titulo">Análise de Água laboratorial</h1>
 
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic" class="carousel slide carrossel" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -29,24 +29,24 @@
             </ol>
           
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner carrossel" role="listbox">
               <div class="item active">
                 <img class="carrossel__img" src="./img/img_1_carrossel.png" alt="...">
                 <div class="carousel-caption">
-                  Tecnologia
+                  Técnologia
                 </div>
               </div>
               <div class="item">
                 <img class="carrossel__img" src="./img/img_2_carrossel.png" alt="...">
                 <div class="carousel-caption">
-                  Equipe especializada.
+                  Equipe especializado.
                 </div>
               </div>
               
               <div class="item">
                 <img class="carrossel__img" src="./img/img_3_carrossel.png" alt="...">
                 <div class="carousel-caption">
-                  Laboratório ágil com entrega rápida.
+                  Laboratório ágio com entrega rápida.
                 </div>
               </div>
             </div>
@@ -73,7 +73,7 @@
           <h2 class="titulo__explicacao">Como solicitar um Orçamento agora mesmo de análise de água</h2>
           <h4>Em suma, o Grupo Líder, em parceria com todo o Mercado Cearense, <b>fornece Orçamento Gratuito</b> para empresas, indústrias, fábricas, residências e demais estabelecimentos que se interessem por esse serviço. Nesse sentido, no seu orçamento serão avaliadas todos os itens necessários para a realização efetiva da sua análise de água. Posteriormente, ao aderir a esse serviço o nosso operador irá diretamente até a sua unidade e coletará amostras da água que será analisada. Portanto entre em contato agora mesmo e fale com nossos consultores clicando em uma das imagens abaixo. Nós estamos no seu aguardo, Seja Líder você também!</h4>
 
-          <h2 class="titulo__explicacao3">Nossos clientes que já confiam em nosso trabalho</h2>
+          <h2 class="titulo__explicacao3">Nossos cliente que já confiam em nosso trabalho</h2>
           <div class="logos">
             <img class="logo__parceria" src="./img/M_dias_branco.png" alt="">
             <img class="logo__parceria" src="./img/verdes__mares.png" alt="">
@@ -102,10 +102,28 @@
           </div>
 
           <a href="https://api.whatsapp.com/send?phone=5585981038088&text=Ola!%20gostaria%20de%20agendar%20a%20an%C3%A1lise%20de%20%C3%A1gua."><img class="logo__whatsapp animate-bounce" src="./img/logo_whatsapp.png" alt="logo do logo_whatsapp"></a> 
+          
+          <div class="onde">
+            <h2 class="onde__titulo">Saiba onde nos encontrar</h2>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3026145854415!2d-38.52473498524101!3d-3.744110597275998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c748e36fa6a999%3A0x530e9c4362d73aa5!2sAv.%20Visconde%20do%20Rio%20Branco%2C%202634%20-%20F%C3%A1tima%2C%20Fortaleza%20-%20CE%2C%2060055-364!5e0!3m2!1spt-BR!2sbr!4v1670424284956!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <form class="formulario" action="https://formsubmit.co/vendas1@liderambiental.net" method="POST">
+            <h1 class="formulario__titulo">Preencha o formulário para entrar em contato por e-mail</h1>
+            <label class="formulario__name" for="nome">NOME</label>
+            <input class="formulario__name1" id="nome" type="text" name="name" required placeholder="nome">
+            <label class="formulario__email" for="email">E-mail</label>
+            <input class="formulario__email1" id="email" type="email" name="email" required placeholder="e-mail">
+            <label class="formulario__mensagem" for="mensagem">Mensagem</label>
+            <textarea class="formulario__mensagem1" name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+            <button class="formulario__botao" type="submit">Enviar</button>
+          </form>
+
     </main>
 
     <footer class="rodape">
-      <a href="https://api.whatsapp.com/send?phone=5585981038088&text=Ola!%20gostaria%20de%20agendar%20a%20an%C3%A1lise%20de%20%C3%A1gua." class="rodape__contato">contato: (85) 9.8103-8088</a>
+      <a href="https://api.whatsapp.com/send?phone=5585981038088&text=Ola!%20gostaria%20de%20agendar%20a%20an%C3%A1lise%20de%20%C3%A1gua." class="rodape__contato">contato: (85) 9.8103-8088 <br> email: vendas1@liderambiental.net</a>
       <img class="cabecalho__img" src="./img/Logo-lider.png" alt="Logo do Grupo Lider">           
     </footer>
 
